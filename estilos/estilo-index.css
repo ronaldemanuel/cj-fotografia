@@ -1,0 +1,68 @@
+/*Edição das imagens*/
+.img-camera {
+    height: 60vh;
+}
+
+.img-pessoa {
+    height: 50vh;
+}
+
+.conj-img {
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-ex {
+    border: 5px solid black;
+}
+
+/*flexbox*/
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Estilos dos containers*/
+.sobre-mim,
+.sobre-trabalho {
+    background-color: #3A3A3A;
+    width: 92vw;
+    margin: 20px auto;
+}
+
+.content1 {
+    height: 70vh;
+    margin: 30px;
+}
+
+.content2 {
+    height: 100vh;
+    margin: 50px;
+    padding: 20px;
+}
+
+
+/*Estilos de texto*/
+h2 {
+    margin-bottom: 30px;
+}
+
+.txt {
+    background-color: #313131;
+    width: 50vw;
+    height: 60vh;
+    font-size: 20px;
+    padding: 0 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: justify;
+}
+
+.txt2 {
+    height: 50vh;
+}

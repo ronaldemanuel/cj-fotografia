@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #252525;
+    background-color: #2e2e2e;
     color: white;
     font-family: 'Noto Sans', sans-serif;
 }
@@ -17,7 +17,7 @@ body {
 }
 
 .cabecalho {
-    height: 245px;
+    height: 150px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -37,7 +37,7 @@ body {
 .menu a {
     color: white;
     text-decoration: none;
-    font-size: 27px;
+    font-size: 20px;
     transition: .3s;
 }
 
@@ -48,7 +48,7 @@ body {
 
 /*RODAPÉ*/
 .rodape {
-    height: 200px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
