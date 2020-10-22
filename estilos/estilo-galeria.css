@@ -78,62 +78,56 @@ body {
     margin-top: 100px;
     margin-left: 110px;
     margin-bottom: 50px;
-    border: 5px solid black;
 }
 
 .img-2{
     margin-top: 100px;
     margin-left: 60px;
     margin-bottom: 50px;
-    border: 5px solid black;
 }
 
 .img-3{
     margin-top: 100px;
     margin-left: 60px;
     margin-bottom: 50px;
-    border: 5px solid black;
 }
 
 .img-4{
     margin-top: 50px;
     margin-left: 110px;
     margin-bottom: 50px;
-    border: 5px solid black;
 }
 
 .img-5{
     margin-top: 50px;
     margin-left: 60px;
     margin-bottom: 50px;
-    border: 5px solid black;
 }
 
 .img-6{
     margin-top: 50px;
     margin-left: 60px;
     margin-bottom: 50px;
-    border: 5px solid black;
 }
 
 .img-7{
     margin-top: 50px;
     margin-left: 110px;
     margin-bottom: 50px;
-    border: 5px solid black;
 }
 
 .img-8{
     margin-top: 50px;
     margin-left: 60px;
     margin-bottom: 50px;
-    border: 5px solid black;
 }
 
 .img-9{
     margin-top: 50px;
     margin-left: 60px;
     margin-bottom: 50px;
-    border: 5px solid black;
 }
 
+.borda {
+    border: 5px solid black;
+}
