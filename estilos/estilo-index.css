@@ -1,21 +1,25 @@
 /*Edição das imagens*/
 .img-camera {
     height: 60vh;
+    margin: 30px auto;
 }
 
 .img-pessoa {
     height: 50vh;
+    margin: 30px auto;
 }
 
 .conj-img {
     width: 100vw;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .img-ex {
     border: 5px solid black;
+    margin: 40px auto;
 }
 
 /*flexbox*/
@@ -35,12 +39,12 @@
 }
 
 .content1 {
-    height: 70vh;
+    height: auto;
     margin: 30px;
 }
 
 .content2 {
-    height: 100vh;
+    height: auto;
     margin: 50px;
     padding: 20px;
 }
@@ -61,8 +65,26 @@ h2 {
     flex-wrap: wrap;
     align-content: center;
     text-align: justify;
+    margin: 30px auto;
 }
 
 .txt2 {
     height: 50vh;
+}
+
+@media (max-width: 1445px) {
+    .sobre-mim {
+        width: 75vw;
+    }
+
+    .txt2 {
+        order: -1;
+    }
+}
+
+@media (max-width: 1270px) {
+
+    .sobre-trabalho {
+        width: 75vw;
+    }
 }
