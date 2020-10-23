@@ -2,71 +2,59 @@
 .content{
     margin: 30px 50px;
     background-color: #3a3a3a;
+    height: auto;
 }
 /*GALERIA*/
 
-.gal{
-    padding-top: 30px;
-    padding-left: 990px;
+h1{
     font-size: 50px;
     color:#DEC801;
+    width: 90%;
+    text-align: end;
+    padding-top: 50px;
+    margin: auto;
 }
+
 
 /*IMAGENS*/
-.img-1{
-    margin-top: 100px;
-    margin-left: 110px;
-    margin-bottom: 50px;
+
+.l-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: 60px auto;
 }
 
-.img-2{
-    margin-top: 100px;
-    margin-left: 60px;
-    margin-bottom: 50px;
-}
-
-.img-3{
-    margin-top: 100px;
-    margin-left: 60px;
-    margin-bottom: 50px;
-}
-
-.img-4{
-    margin-top: 50px;
-    margin-left: 110px;
-    margin-bottom: 50px;
-}
-
-.img-5{
-    margin-top: 50px;
-    margin-left: 60px;
-    margin-bottom: 50px;
-}
-
-.img-6{
-    margin-top: 50px;
-    margin-left: 60px;
-    margin-bottom: 50px;
-}
-
-.img-7{
-    margin-top: 50px;
-    margin-left: 110px;
-    margin-bottom: 50px;
-}
-
-.img-8{
-    margin-top: 50px;
-    margin-left: 60px;
-    margin-bottom: 50px;
-}
-
-.img-9{
-    margin-top: 50px;
-    margin-left: 60px;
-    margin-bottom: 50px;
+.img-gal {
+    margin: 50px auto;
+    width: 400px;
+    height: 300px;
 }
 
 .borda {
     border: 5px solid black;
+}
+
+@media (max-width: 770px) {
+    h1 {
+        text-align: center;
+    }
+
+    .img-gal {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 450px) {
+    .img-gal {
+        width: 60vw;
+        height: auto;
+    }
+
+    .l-flex {
+        margin: 30px auto;
+    }
 }
