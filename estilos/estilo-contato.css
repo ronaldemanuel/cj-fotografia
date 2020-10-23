@@ -2,7 +2,7 @@
 #pag-atual{
   color:#DEC801;
 }
-/*h1 da página*/
+/*TÍTULOS*/
 h1{
     font-size: 50px;
     color:#DEC801;
@@ -12,19 +12,18 @@ h1{
     margin: auto;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     h1 {
         text-align: center;
     }
 }
 
-/*h2 do formulário*/
 h2 {
     margin-bottom: 50px;
 }
-/*FORMULÁRIO*/
 
-section {
+/*CONTAINERS*/
+.sec {
     background-color: #3a3a3a;
     margin: 30px 50px;
     height: auto;
@@ -35,24 +34,19 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-between;
-    margin: 40px;
+    margin: 30px 80px;
 }
 
 .content-1 {
-    width: auto;
-    margin: auto;
     margin-bottom: 30px;
 }
 
-p {
-    width: 400px;
+.content-2 p {
+    width: 350px;
     text-align: justify;
 }
 
-.content-2 {
-    margin: 0 auto;
-}
-
+/*FORMULÁRIO*/
 .form{
 	display: flex;
 	flex-direction: column;
@@ -77,12 +71,15 @@ p {
     transition: 0.2s;
 }
 
-@media (max-width: 1325px) {
-    .content-1,
-    .form input,
-    .form textarea {
-        width: 45vw;
-    }
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="date"] {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form label {
+    color: gray;
+    font-size: 16px;
 }
 
 /*TEXTAREA*/
@@ -92,7 +89,7 @@ p {
     margin-top: 20px;
     margin-bottom: 30px;
     padding: 30px;
-    border:none;
+    border: none;
     background:rgb(37, 37, 37);
     outline: none;
     color:white;
@@ -102,7 +99,6 @@ p {
  .btn{
     width: 150px;
     height: 50px;
-    text-align: center;
     text-transform: uppercase;
     color: white;
     font-size: 15px;
@@ -117,8 +113,28 @@ p {
     color:black;
  }
 
+ /*IMAGEM*/
 .img-cadeira{
     margin: 30px;
     width: 320px;
+}
+
+/*RESPONSIVIDADE*/
+@media (max-width: 1300px) {
+    .content-1,
+    .content-2 {
+        margin: 30px auto;
+    }
+
+    .content-2 {
+        order: -1;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
 }
 

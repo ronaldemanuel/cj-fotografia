@@ -1,3 +1,8 @@
+/*Pagina atual em destaque*/
+#pag-atual{
+    color:#DEC801;
+}
+
 /*CONTENT*/
 .content{
     margin: 30px 50px;
@@ -15,9 +20,6 @@ h1{
     margin: auto;
 }
 
-
-/*IMAGENS*/
-
 .l-flex {
     display: flex;
     flex-wrap: wrap;
@@ -27,6 +29,7 @@ h1{
     margin: 60px auto;
 }
 
+/*IMAGENS*/
 .img-gal {
     margin: 40px auto;
     width: 400px;
@@ -54,8 +57,5 @@ h1{
     }
 }
 
-/*Pagina atual em destaque*/
-#pag-atual{
-    color:#DEC801;
-  }
+
   
