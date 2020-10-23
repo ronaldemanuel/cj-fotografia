@@ -1,4 +1,4 @@
-/*Edição das imagens*/
+/*EDIÇÃO DAS IMAGENS*/
 .img-camera {
     height: 60vh;
     margin: 30px auto;
@@ -7,6 +7,11 @@
 .img-pessoa {
     height: 50vh;
     margin: 30px auto;
+}
+
+.img-camera,
+.img-pessoa {
+    min-width: 270px;
 }
 
 .conj-img {
@@ -21,7 +26,7 @@
     margin: 40px auto;
 }
 
-/*flexbox*/
+/*FLEX-BOX GERAL*/
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -29,12 +34,10 @@
     align-items: center;
 }
 
-/*Estilos dos containers*/
-.sobre-mim,
-.sobre-trabalho {
+/*CONTAINERS*/
+.sobre {
     background-color: #3A3A3A;
-    width: 92vw;
-    margin: 20px auto;
+    margin: 20px 60px;
 }
 
 .content1 {
@@ -48,18 +51,18 @@
     padding: 20px;
 }
 
-
-/*Estilos de texto*/
+/*TEXTOS*/
 h2 {
     margin-bottom: 30px;
+    text-align: left;
 }
 
 .txt {
     background-color: #313131;
-    width: 50vw;
-    height: 60vh;
+    width: 55vw;
+    height: auto;
     font-size: 20px;
-    padding: 0 60px;
+    padding: 30px 60px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -68,22 +71,44 @@ h2 {
 }
 
 .txt2 {
-    height: 50vh;
+    width: 50vw;
 }
 
-@media (max-width: 1445px) {
-    .sobre-mim {
-        width: 75vw;
+/*RESPONSIVIDADE*/
+@media (max-width: 1500px) {
+    .img-camera,
+    .img-pessoa {
+        width: 20vw;
+        height: auto;
     }
 
+    .sobre {
+        margin: 20px 100px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .txt,
+    .txt2 {
+        height: auto;
+        width: auto;
+        margin: 20px 0px;
+    }
+
+    .txt,
     .txt2 {
         order: -1;
+        padding: 15px;
     }
 }
 
-@media (max-width: 1270px) {
+@media (max-width: 750px) {
+    .sobre {
+        margin: 30px 20px;
+    }
 
-    .sobre-trabalho {
-        width: 75vw;
+    .content1,
+    .content2 {
+        margin: 10px;
     }
 }
