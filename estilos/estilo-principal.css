@@ -23,7 +23,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    width: calc(100vw - 100px);
+    width: calc(100vw - 200px);
     margin: auto;
 }
 
@@ -32,10 +32,11 @@ body {
     display: flex;
     justify-content: space-between;
     margin-left: 20px;
-    width: 450px;
+    width: 350px;
 }
 
 .menu a {
+    padding: 20px;
     color: white;
     text-decoration: none;
     font-size: 20px;
