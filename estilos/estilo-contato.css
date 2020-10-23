@@ -31,18 +31,28 @@ padding-bottom: 50px;
     
 }
 
-.form input[type="submit"]{
+.form input[type="date"]{
 	border:none;
 	outline:none;
-	height:300px;
-	color:#000;
-	background:#fff;
-	border-radius: 20px;
+	height:20px;
+	color:white;
+    background:transparent;
+    border-bottom: 1px solid white;
+	transition:0.2s;
+
+}
+.form input[type="email"]{
+	border:none;
+	outline:none;
+	height:20px;
+	color:white;
+    background:transparent;
+    border-bottom: 1px solid white;
 	transition:0.2s;
 
 }
 
-.form input[type="submit"]:hover {
+.form input:hover {
     cursor: pointer;
     background:#ff4d4d;
     transition: 0.2s;
