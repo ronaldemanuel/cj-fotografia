@@ -47,6 +47,11 @@ body {
     color:  #DEC801;
     transition: .4s;
 }
+/*BORDA IMAGENS*/
+.borda{
+    border: 5px solid black;
+}
+
 
 /*RODAPÉ*/
 .rodape {
