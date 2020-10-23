@@ -58,3 +58,8 @@ h1{
         margin: 30px auto;
     }
 }
+/*Pagina atual em destaque*/
+#pag-atual{
+    color:#DEC801;
+  }
+  
