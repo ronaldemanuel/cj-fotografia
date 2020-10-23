@@ -45,13 +45,12 @@ h1{
 }
 
 @media (max-width: 450px) {
-    .img-gal {
-        width: 60vw;
-        height: auto;
-    }
-
     .l-flex {
         margin: 30px auto;
+    }
+
+    .content {
+        margin: 20px;
     }
 }
 /*Pagina atual em destaque*/

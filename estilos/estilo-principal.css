@@ -27,10 +27,16 @@ body {
     margin: auto;
 }
 
+.img-logo {
+    width: 355px;
+    height: auto;
+}
+
 .menu ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    margin: auto;
     margin-left: 20px;
     width: 350px;
 }
@@ -52,7 +58,6 @@ body {
     border: 5px solid black;
 }
 
-
 /*RODAPÉ*/
 .rodape {
     height: 100px;
@@ -63,3 +68,28 @@ body {
 
 }
 
+/*RESPONSIVIDADE*/
+@media (max-width: 925px) {
+    .cabecalho {
+        justify-content: center;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .menu ul {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .menu ul,
+    .img-logo {
+        width: 90vw;
+        height: auto;
+    }
+
+    .menu a {
+        font-size: 18px;
+        padding: 15px
+    }
+}
