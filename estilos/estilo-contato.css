@@ -32,7 +32,6 @@ h2 {
 .container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     justify-content: space-between;
     margin: 30px 80px;
 }
@@ -40,6 +39,8 @@ h2 {
 .content-1 {
     margin-bottom: 30px;
 }
+
+
 
 .content-2 p {
     width: 350px;
@@ -130,11 +131,32 @@ h2 {
         order: -1;
         display: flex;
         flex-wrap: wrap;
-        margin: auto;
+        justify-content: center;
     }
 
     h1 {
         text-align: center;
+    }
+
+    .img-cadeira {
+        width: 22vw;
+    }
+}
+
+@media (max-width: 650px) {
+    .sec {
+        margin: 30px;
+    }
+    .container {
+        margin: 30px 20px;
+    }
+    
+    .content-2 p {
+        width: 85%;
+    }
+
+    .img-cadeira {
+        width: 35vw;
     }
 }
 
